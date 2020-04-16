@@ -13,7 +13,7 @@ import apps_tools.ios as ios
 gsdk = types.SimpleNamespace()
 
 if dragon.VARIANT == "android":
-    gsdk.android_abis = ['armeabi-v7a', 'arm64-v8a', 'x86_64']
+    gsdk.android_abis = ['armeabi-v7a', 'arm64-v8a', "x86", 'x86_64']
     gsdk.gradle_path = os.path.join(dragon.VARIANT_DIR, 'gradle')
     gsdk.package_path = os.path.join(
         dragon.WORKSPACE_DIR, 'packages', 'groundsdk-android')
