@@ -15,8 +15,5 @@ project(':groundsdkdemo').projectDir = new File(gradle.ext.root_dir, 'packages/g
 include ':sdkcore'
 project(':sdkcore').projectDir = new File(gradle.ext.root_dir, 'packages/groundsdk-android/sdkcore')
 
-include ':libARMavlink'
-project(':libARMavlink').projectDir = new File(gradle.ext.root_dir, 'packages/common/libARMavlink')
-
 include ':sdkcore-testing'
 project(':sdkcore-testing').projectDir = new File(gradle.ext.root_dir, 'packages/groundsdk-android/sdkcore/testing')
