@@ -29,3 +29,4 @@ local.properties
 
 # private directory
 private/
+android/Android.mk.Save.ARLibMavlink
